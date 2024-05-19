@@ -4,13 +4,13 @@ import useForm from '../../hooks/useForm'
 import PollFormTitle from './PollFormTitle/PollFormTitle.component'
 import PollFormBody from './PollFormBody/PollFormBody.component'
 import PollFormFooter from './PollFormFooter/PollFormFooter.component'
+import OptionsList from '../OptionsList/OptionsList.component'
+import Notices from '../Notices/Notices.component'
 import Label from '../shared/Label/Label.component'
 import Input from '../shared/Input/Input.component'
 import Button from '../shared/Button/Button.component'
-import Notices from '../Notices/Notices.component'
 
 import styles from './PollForm.module.css'
-import OptionsList from '../OptionsList/OptionsList.component'
 
 const PollForm = () => {
   const { response, loading, error, sendData } = useAxios({ method: 'POST' })
