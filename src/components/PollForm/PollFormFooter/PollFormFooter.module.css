@@ -1,0 +1,5 @@
+.formFooter {
+  padding: var(--padding-md);
+  border-top: var(--border-base);
+  text-align: right;
+}

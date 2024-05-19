@@ -1,0 +1,38 @@
+.primaryBtn,
+.disabledBtn {
+  min-width: 96px;
+  padding: 8px 0;
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: var(--border-radius);
+}
+
+.primaryBtn {
+  background-color: var(--color-green);
+  color: var(--color-white);
+}
+
+.disabledBtn {
+  background-color: var(--color-light-gray);
+  color: var(--color-white);
+  cursor: not-allowed;
+}
+
+.secondaryBtn {
+  background-color: transparent;
+  color: var(--color-green);
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.roundedBtn {
+  min-width: 34px;
+  width: 34px;
+  height: 34px;
+  background-color: var(--color-green);
+  color: var(--color-white);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1;
+  border-radius: 100%;
+}

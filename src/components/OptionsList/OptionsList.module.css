@@ -1,0 +1,4 @@
+.optionsList {
+  margin-top: var(--padding-xl);
+  border: var(--border-base);
+}

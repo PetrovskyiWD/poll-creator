@@ -1,0 +1,11 @@
+.noticesContainer {
+  margin-top: var(--padding-md);
+  text-align: right;
+}
+
+.errorMsg {
+  color: var(--color-red);
+}
+.successMsg {
+  color: var(--color-green);
+}

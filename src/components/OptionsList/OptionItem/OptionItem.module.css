@@ -1,0 +1,14 @@
+.optionItem {
+  padding: 12px;
+  display: flex;
+}
+
+.optionItem span {
+  flex: 1;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.optionItem+.optionItem {
+  border-top: var(--border-base);
+}
